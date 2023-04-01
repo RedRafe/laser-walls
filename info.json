@@ -1,9 +1,9 @@
 {
 	"name": "laser-walls",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"title": "Laser Walls",
 	"author": "RedRafe",
-	"homepage": "https://mods.factorio.com/mod/laser-walls",	
+	"homepage": "https://mods.factorio.com/mod/laser-walls",
 	"factorio_version": "1.1",
 	"dependencies": [
 		"base >= 1.1.0",
