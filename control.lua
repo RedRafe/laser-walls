@@ -67,7 +67,7 @@ local function on_moved(dolly_event)
   if not entity or not entity.valid then return end
 
   local entity_name = entity.name
-  if not SWControl.isKey(entity_name) then return end
+  if not LWControl.isKey(entity_name) then return end
 
   local old_position = dolly_event.start_pos
   if not old_position then return end

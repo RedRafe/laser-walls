@@ -2,7 +2,7 @@ local c = 0
 for ___, surface in pairs(game.surfaces) do
 	for ___, interface in pairs(surface.find_entities_filtered{
     name = "laser-interface",
-    type = "laser"
+    type = "electric-turret"
   }) do 
     local walls = interface.surface.find_entities_filtered{
       name = "laser-wall",
